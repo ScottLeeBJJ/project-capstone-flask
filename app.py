@@ -30,7 +30,7 @@ games_schema = GameSchema(many=True)
 
 # Endpoint to create a new guide
 @app.route('/games', methods=["POST"])
-def add_guide():
+def add_games():
     title = request.json['title']
     content = request.json['content']
 
