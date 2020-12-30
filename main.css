@@ -1,0 +1,21 @@
+table {
+    width: 800px;
+    height: 300px;
+}
+
+th {
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 20px;
+}
+
+caption {
+    font-size: 40px;
+}
